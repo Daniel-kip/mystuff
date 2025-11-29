@@ -1,0 +1,281 @@
+2025-11-13 19:56:35.055 +02:00 [INF] Now listening on: http://localhost:5031
+2025-11-13 19:56:35.302 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 19:56:35.338 +02:00 [INF] Hosting environment: Development
+2025-11-13 19:56:35.365 +02:00 [INF] Content root path: C:\Users\YOUNG'SSTAR\Desktop\Backend_IP\backend
+2025-11-13 19:56:35.778 +02:00 [INF] Background polling executed successfully at "2025-11-13T17:56:35.7776511Z"
+2025-11-13 19:56:36.091 +02:00 [INF] Cleaned up 0 old message logs older than 2025-08-15
+2025-11-13 19:56:36.169 +02:00 [INF] Database maintenance completed
+2025-11-13 19:57:04.495 +02:00 [WRN] As of ""2025-11-13T17:57:03.8122682+00:00"", the heartbeat has been running for ""00:00:10.4935357"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-11-13 19:57:17.788 +02:00 [WRN] As of ""2025-11-13T17:57:17.7825255+00:00"", the heartbeat has been running for ""00:00:01.1136730"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-11-13 19:57:27.377 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-13 19:57:27.377 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 19:57:30.401 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:57:30.401 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:57:33.196 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 19:57:33.212 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:57:33.503 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 19:57:33.513 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:57:33.827 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 6586.4287ms
+2025-11-13 19:57:36.012 +02:00 [INF] Background polling executed successfully at "2025-11-13T17:57:36.0118270Z"
+2025-11-13 19:58:07.569 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:58:07.569 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:58:07.569 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:58:13.620 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:58:13.620 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:58:13.620 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:58:16.158 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:58:16.469 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:58:16.469 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:58:38.120 +02:00 [INF] Background polling executed successfully at "2025-11-13T17:58:38.1202194Z"
+2025-11-13 19:58:54.170 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 39608.7177ms
+2025-11-13 19:58:54.170 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 39608.8142ms
+2025-11-13 19:58:54.170 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 39608.8248ms
+2025-11-13 19:58:54.172 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:58:54.173 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:58:54.176 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:58:54.179 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 80676.3803ms
+2025-11-13 19:58:54.179 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 80983.0818ms
+2025-11-13 19:58:54.185 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 86945.3192ms
+2025-11-13 19:59:07.197 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-13 19:59:07.203 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:07.210 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 13.0607ms
+2025-11-13 19:59:07.214 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 19:59:07.225 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:07.227 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:07.230 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:07.236 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:07.243 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 7.7923ms
+2025-11-13 19:59:07.249 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:07.252 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 38.0171ms
+2025-11-13 19:59:08.394 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 19:59:08.431 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:08.433 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:08.436 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:08.442 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:08.450 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 19:59:08.450 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 8.9929ms
+2025-11-13 19:59:08.459 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:08.463 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:08.465 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:08.473 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:08.469 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 75.5144ms
+2025-11-13 19:59:08.478 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:08.489 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 10.3438ms
+2025-11-13 19:59:08.492 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:08.495 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 45.6836ms
+2025-11-13 19:59:11.892 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 19:59:11.894 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 19:59:11.897 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:11.902 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:11.904 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:11.906 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:11.909 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:11.910 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:11.914 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:11.917 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:11.923 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 6.3513ms
+2025-11-13 19:59:11.920 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 6.3007ms
+2025-11-13 19:59:11.931 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:11.926 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:11.934 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 41.1244ms
+2025-11-13 19:59:11.935 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 41.5765ms
+2025-11-13 19:59:12.911 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-13 19:59:12.927 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:12.929 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 17.9403ms
+2025-11-13 19:59:12.933 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 19:59:12.941 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:12.942 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:12.944 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:12.949 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:12.952 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 3.7091ms
+2025-11-13 19:59:12.955 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:12.957 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 24.2787ms
+2025-11-13 19:59:19.575 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/Login - null null
+2025-11-13 19:59:19.616 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:19.618 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/Login - 204 null null 42.7716ms
+2025-11-13 19:59:19.629 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/Login - application/json 59
+2025-11-13 19:59:19.639 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:19.641 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Login (backend)'
+2025-11-13 19:59:19.660 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginRequest) on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:20.264 +02:00 [INF] Successful login for user: ottydan008@gmail.com
+2025-11-13 19:59:20.268 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`5[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-13 19:59:20.287 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Login (backend) in 620.309ms
+2025-11-13 19:59:20.290 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Login (backend)'
+2025-11-13 19:59:20.294 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/Login - 200 null application/json; charset=utf-8 664.5383ms
+2025-11-13 19:59:20.351 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-13 19:59:20.352 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 19:59:20.388 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:20.399 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:20.401 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 49.8431ms
+2025-11-13 19:59:20.403 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:20.424 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:20.436 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:20.446 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 10.0966ms
+2025-11-13 19:59:20.452 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 19:59:20.459 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:20.476 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:20.479 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 126.8738ms
+2025-11-13 19:59:20.673 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:20.751 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:21.100 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-13 19:59:21.134 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 370.4195ms
+2025-11-13 19:59:21.243 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 19:59:21.245 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 200 null application/json; charset=utf-8 793.6729ms
+2025-11-13 19:59:21.265 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 19:59:21.301 +02:00 [INF] CORS policy execution successful.
+2025-11-13 19:59:21.302 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:21.308 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 19:59:21.314 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 19:59:21.317 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 2.7503ms
+2025-11-13 19:59:21.329 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 19:59:21.330 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 65.1849ms
+2025-11-13 19:59:38.141 +02:00 [INF] Background polling executed successfully at "2025-11-13T17:59:38.1416887Z"
+2025-11-13 20:00:38.168 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:00:38.1680231Z"
+2025-11-13 20:01:38.437 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:01:38.4375088Z"
+2025-11-13 20:02:38.459 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:02:38.4596453Z"
+2025-11-13 20:03:38.463 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:03:38.4632254Z"
+2025-11-13 20:04:38.488 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:04:38.4884510Z"
+2025-11-13 20:05:38.504 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:05:38.5039856Z"
+2025-11-13 20:06:38.518 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:06:38.5187814Z"
+2025-11-13 20:07:38.542 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:07:38.5423224Z"
+2025-11-13 20:08:38.557 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:08:38.5571254Z"
+2025-11-13 20:09:38.825 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:09:38.8254669Z"
+2025-11-13 20:10:38.864 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:10:38.8640794Z"
+2025-11-13 20:11:38.890 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:11:38.8908671Z"
+2025-11-13 20:12:38.905 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:12:38.9053011Z"
+2025-11-13 20:13:38.933 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:13:38.9334552Z"
+2025-11-13 20:14:38.942 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:14:38.9424899Z"
+2025-11-13 20:15:38.941 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:15:38.9413343Z"
+2025-11-13 20:15:45.827 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/logout - null null
+2025-11-13 20:15:45.832 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:45.833 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/logout - 204 null null 5.9071ms
+2025-11-13 20:15:45.838 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/logout - application/json 2
+2025-11-13 20:15:45.846 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:47.502 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Logout (backend)'
+2025-11-13 20:15:47.544 +02:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:47.582 +02:00 [INF] User 4 logged out
+2025-11-13 20:15:47.587 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 20:15:47.593 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Logout (backend) in 40.4401ms
+2025-11-13 20:15:47.597 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Logout (backend)'
+2025-11-13 20:15:47.602 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/logout - 200 null application/json; charset=utf-8 1763.0645ms
+2025-11-13 20:15:47.654 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 20:15:47.664 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:47.666 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:15:47.673 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-13 20:15:47.673 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:47.677 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:47.680 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 20:15:47.681 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 7.7849ms
+2025-11-13 20:15:47.686 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 6.3647ms
+2025-11-13 20:15:47.686 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 20:15:47.697 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:15:47.710 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:47.712 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 57.3545ms
+2025-11-13 20:15:47.714 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 20:15:47.723 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 20:15:47.728 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:47.733 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:47.737 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 20:15:47.739 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 20:15:47.741 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 4.598ms
+2025-11-13 20:15:47.742 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:47.744 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 20:15:47.746 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 20:15:47.747 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 61.1783ms
+2025-11-13 20:15:47.754 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 7.9671ms
+2025-11-13 20:15:47.761 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 20:15:47.762 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 401 null application/json; charset=utf-8 39.1018ms
+2025-11-13 20:15:49.998 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/Login - null null
+2025-11-13 20:15:50.009 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:50.014 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/Login - 204 null null 14.9241ms
+2025-11-13 20:15:50.022 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/Login - application/json 59
+2025-11-13 20:15:50.031 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:50.032 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Login (backend)'
+2025-11-13 20:15:50.035 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginRequest) on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:50.288 +02:00 [INF] Successful login for user: ottydan008@gmail.com
+2025-11-13 20:15:50.295 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`5[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-13 20:15:50.307 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Login (backend) in 268.8904ms
+2025-11-13 20:15:50.310 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Login (backend)'
+2025-11-13 20:15:50.314 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/Login - 200 null application/json; charset=utf-8 292.3238ms
+2025-11-13 20:15:50.331 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-13 20:15:50.340 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 20:15:50.348 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:50.358 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 27.0996ms
+2025-11-13 20:15:50.355 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:50.362 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-13 20:15:50.370 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:50.364 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:15:50.372 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 20:15:50.373 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:50.375 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:50.377 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 20:15:50.405 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 27.9372ms
+2025-11-13 20:15:50.409 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:15:50.411 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 71.1829ms
+2025-11-13 20:15:50.428 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-13 20:15:50.444 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 63.3946ms
+2025-11-13 20:15:50.451 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-13 20:15:50.454 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 200 null application/json; charset=utf-8 91.8974ms
+2025-11-13 20:15:50.469 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 20:15:50.472 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:15:50.474 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:15:50.475 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:15:50.478 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 20:15:50.480 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 2.6373ms
+2025-11-13 20:15:50.482 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:15:50.487 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 17.8374ms
+2025-11-13 20:16:38.957 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:16:38.9576842Z"
+2025-11-13 20:17:38.960 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:17:38.9602513Z"
+2025-11-13 20:18:38.965 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:18:38.9650376Z"
+2025-11-13 20:19:24.130 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-13 20:19:24.136 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:19:24.138 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:19:24.143 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-13 20:19:24.146 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-13 20:19:24.150 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 4.0638ms
+2025-11-13 20:19:24.152 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-13 20:19:24.154 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 23.7758ms
+2025-11-13 20:19:38.972 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:19:38.9724846Z"
+2025-11-13 20:20:38.982 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:20:38.9828455Z"
+2025-11-13 20:20:54.881 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Messaging/logs?pageSize=10 - null null
+2025-11-13 20:20:54.886 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:20:54.902 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Messaging/logs?pageSize=10 - 204 null null 21.5335ms
+2025-11-13 20:20:54.916 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Messaging/logs?pageSize=10 - application/json null
+2025-11-13 20:20:54.924 +02:00 [INF] CORS policy execution successful.
+2025-11-13 20:20:54.947 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/11/2025 21:30:26', Current time (UTC): '13/11/2025 18:20:54'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-11-13 20:20:54.973 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/11/2025 21:30:26', Current time (UTC): '13/11/2025 18:20:54'.
+2025-11-13 20:20:54.983 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|SmsManager)
+2025-11-13 20:20:54.989 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-13 20:20:54.991 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Messaging/logs?pageSize=10 - 401 0 null 75.1593ms
+2025-11-13 20:21:38.984 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:21:38.9841960Z"
+2025-11-13 20:22:38.996 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:22:38.9963124Z"
+2025-11-13 20:23:39.023 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:23:39.0236322Z"
+2025-11-13 20:24:39.049 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:24:39.0499050Z"
+2025-11-13 20:25:39.060 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:25:39.0601762Z"
+2025-11-13 20:26:39.071 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:26:39.0712347Z"
+2025-11-13 20:27:39.090 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:27:39.0909164Z"
+2025-11-13 20:28:40.665 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:28:40.6656092Z"
+2025-11-13 20:29:40.715 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:29:40.7155088Z"
+2025-11-13 20:30:40.733 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:30:40.7332173Z"
+2025-11-13 20:31:40.766 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:31:40.7667158Z"
+2025-11-13 20:32:43.081 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:32:43.0818235Z"
+2025-11-13 20:33:43.084 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:33:43.0842145Z"
+2025-11-13 20:34:43.107 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:34:43.1074727Z"
+2025-11-13 20:35:43.140 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:35:43.1405326Z"
+2025-11-13 20:36:43.150 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:36:43.1501980Z"
+2025-11-13 20:37:43.159 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:37:43.1597760Z"
+2025-11-13 20:38:43.178 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:38:43.1782054Z"
+2025-11-13 20:39:43.182 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:39:43.1825002Z"
+2025-11-13 20:40:43.195 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:40:43.1958673Z"
+2025-11-13 20:41:43.214 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:41:43.2149010Z"
+2025-11-13 20:42:43.233 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:42:43.2332365Z"
+2025-11-13 20:43:43.245 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:43:43.2453317Z"
+2025-11-13 20:44:43.260 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:44:43.2600523Z"
+2025-11-13 20:45:43.280 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:45:43.2802258Z"
+2025-11-13 20:46:43.297 +02:00 [INF] Background polling executed successfully at "2025-11-13T18:46:43.2969939Z"

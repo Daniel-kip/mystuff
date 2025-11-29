@@ -1,0 +1,89 @@
+2025-11-14 22:09:50.723 +02:00 [INF] Now listening on: http://localhost:5031
+2025-11-14 22:09:50.852 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-14 22:09:50.860 +02:00 [INF] Hosting environment: Development
+2025-11-14 22:09:50.880 +02:00 [INF] Content root path: C:\Users\YOUNG'SSTAR\Desktop\Backend_IP\backend
+2025-11-14 22:09:51.209 +02:00 [INF] Background polling executed successfully at "2025-11-14T20:09:51.2084289Z"
+2025-11-14 22:09:51.500 +02:00 [INF] Cleaned up 0 old message logs older than 2025-08-16
+2025-11-14 22:09:51.535 +02:00 [INF] Database maintenance completed
+2025-11-14 22:10:00.983 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-14 22:10:00.984 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-14 22:10:01.078 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:10:01.078 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:10:01.100 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 120.1549ms
+2025-11-14 22:10:01.126 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-14 22:10:01.158 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:10:01.227 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-14 22:10:01.227 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-14 22:10:01.256 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-14 22:10:01.256 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-14 22:10:01.273 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-14 22:10:01.429 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 164.1289ms
+2025-11-14 22:10:01.432 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-14 22:10:01.435 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 455.5151ms
+2025-11-14 22:10:01.444 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-14 22:10:01.448 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:10:01.453 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-14 22:10:01.455 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-14 22:10:01.549 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-14 22:10:01.549 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-14 22:10:01.573 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 314.2311ms
+2025-11-14 22:10:01.573 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 115.126ms
+2025-11-14 22:10:01.577 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-14 22:10:01.579 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-14 22:10:01.584 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 200 null application/json; charset=utf-8 140.3163ms
+2025-11-14 22:10:01.583 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 200 null application/json; charset=utf-8 456.8995ms
+2025-11-14 22:10:01.594 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-14 22:10:01.604 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-14 22:10:01.607 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:10:01.610 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:10:01.611 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-14 22:10:01.612 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-14 22:10:01.613 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-14 22:10:01.616 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-14 22:10:01.620 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-14 22:10:01.623 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-14 22:10:01.625 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 5.7208ms
+2025-11-14 22:10:01.628 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 5.1863ms
+2025-11-14 22:10:01.630 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-14 22:10:01.635 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-14 22:10:01.636 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 42.2858ms
+2025-11-14 22:10:01.641 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 36.5356ms
+2025-11-14 22:10:51.273 +02:00 [INF] Background polling executed successfully at "2025-11-14T20:10:51.2730910Z"
+2025-11-14 22:11:10.656 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Messaging/logs?pageSize=10 - null null
+2025-11-14 22:11:10.663 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:11:10.672 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Messaging/logs?pageSize=10 - 204 null null 15.1973ms
+2025-11-14 22:11:10.677 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Messaging/logs?pageSize=10 - application/json null
+2025-11-14 22:11:10.690 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:11:11.414 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/11/2025 21:30:26', Current time (UTC): '14/11/2025 20:11:11'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-11-14 22:11:11.427 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/11/2025 21:30:26', Current time (UTC): '14/11/2025 20:11:11'.
+2025-11-14 22:11:11.440 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|SmsManager)
+2025-11-14 22:11:11.448 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-14 22:11:11.451 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Messaging/logs?pageSize=10 - 401 0 null 773.845ms
+2025-11-14 22:11:51.293 +02:00 [INF] Background polling executed successfully at "2025-11-14T20:11:51.2934214Z"
+2025-11-14 22:12:40.115 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/logout - null null
+2025-11-14 22:12:40.123 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:12:40.126 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/logout - 204 null null 10.8048ms
+2025-11-14 22:12:40.138 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/logout - application/json 0
+2025-11-14 22:12:40.141 +02:00 [INF] CORS policy execution successful.
+2025-11-14 22:12:40.145 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/11/2025 21:30:26', Current time (UTC): '14/11/2025 20:12:40'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-11-14 22:12:40.150 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/11/2025 21:30:26', Current time (UTC): '14/11/2025 20:12:40'.
+2025-11-14 22:12:40.156 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-14 22:12:40.159 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-14 22:12:40.167 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/logout - 401 0 null 28.8418ms
+2025-11-14 22:12:53.830 +02:00 [INF] Background polling executed successfully at "2025-11-14T20:12:53.8305400Z"
+2025-11-14 22:13:53.841 +02:00 [INF] Background polling executed successfully at "2025-11-14T20:13:53.8419402Z"
+2025-11-14 22:14:53.857 +02:00 [INF] Background polling executed successfully at "2025-11-14T20:14:53.8578928Z"
+2025-11-14 22:15:54.156 +02:00 [INF] Background polling executed successfully at "2025-11-14T20:15:54.1566530Z"
+2025-11-14 22:16:17.375 +02:00 [INF] Application is shutting down...

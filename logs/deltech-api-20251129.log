@@ -1,0 +1,265 @@
+2025-11-29 00:00:29.320 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:00:29.3202819Z"
+2025-11-29 00:01:29.558 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:01:29.5585468Z"
+2025-11-29 00:02:29.685 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:02:29.6853564Z"
+2025-11-29 00:03:29.707 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:03:29.7077966Z"
+2025-11-29 00:04:29.826 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:04:29.8264122Z"
+2025-11-29 00:05:23.182 +02:00 [WRN] As of ""2025-11-28T22:05:23.0915608+00:00"", the heartbeat has been running for ""00:00:02.0305030"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-11-29 00:05:29.831 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:05:29.8309847Z"
+2025-11-29 00:06:29.840 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:06:29.8401436Z"
+2025-11-29 00:07:29.861 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:07:29.8616045Z"
+2025-11-29 00:08:29.890 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:08:29.8900286Z"
+2025-11-29 00:09:29.928 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:09:29.9282543Z"
+2025-11-29 00:10:29.954 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:10:29.9544068Z"
+2025-11-29 00:11:29.963 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:11:29.9630744Z"
+2025-11-29 00:12:29.983 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:12:29.9838957Z"
+2025-11-29 00:13:30.001 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:13:30.0013305Z"
+2025-11-29 00:14:30.015 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:14:30.0150867Z"
+2025-11-29 00:15:30.046 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:15:30.0465082Z"
+2025-11-29 00:16:30.171 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:16:30.1716095Z"
+2025-11-29 00:17:30.179 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:17:30.1797243Z"
+2025-11-29 00:18:30.736 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:18:30.7369293Z"
+2025-11-29 00:19:32.286 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:19:32.2864982Z"
+2025-11-29 00:20:32.449 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:20:32.4496963Z"
+2025-11-29 00:21:32.465 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:21:32.4654648Z"
+2025-11-29 00:22:32.491 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:22:32.4911760Z"
+2025-11-29 00:23:32.557 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:23:32.5574136Z"
+2025-11-29 00:24:34.955 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:24:34.9552534Z"
+2025-11-29 00:25:34.972 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:25:34.9729171Z"
+2025-11-29 00:26:35.002 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:26:35.0025673Z"
+2025-11-29 00:27:35.030 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:27:35.0302452Z"
+2025-11-29 00:28:12.260 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/favicon.ico - null null
+2025-11-29 00:28:12.293 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/favicon.ico - 404 0 null 33.8935ms
+2025-11-29 00:28:12.338 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5031/favicon.ico, Response status code: 404
+2025-11-29 00:28:13.117 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 00:28:13.123 +02:00 [INF] CORS policy execution successful.
+2025-11-29 00:28:13.135 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:28:13.149 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 00:28:13.168 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 00:28:13.197 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 41.8131ms
+2025-11-29 00:28:13.213 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:28:13.218 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 101.1772ms
+2025-11-29 00:28:35.079 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:28:35.0797593Z"
+2025-11-29 00:29:35.199 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:29:35.1997343Z"
+2025-11-29 00:29:56.564 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/favicon.ico - null null
+2025-11-29 00:29:56.603 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/favicon.ico - 404 0 null 38.4283ms
+2025-11-29 00:29:57.023 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5031/favicon.ico, Response status code: 404
+2025-11-29 00:29:57.360 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 00:29:57.414 +02:00 [INF] CORS policy execution successful.
+2025-11-29 00:29:57.422 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:30:00.229 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 00:30:00.251 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 00:30:00.281 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 31.0823ms
+2025-11-29 00:30:00.300 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:30:00.322 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 2962.0987ms
+2025-11-29 00:30:35.212 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:30:35.2121027Z"
+2025-11-29 00:31:35.229 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:31:35.2296866Z"
+2025-11-29 00:32:35.245 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:32:35.2457940Z"
+2025-11-29 00:33:35.292 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:33:35.2926080Z"
+2025-11-29 00:34:35.299 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:34:35.2994686Z"
+2025-11-29 00:35:35.326 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:35:35.3260002Z"
+2025-11-29 00:36:35.337 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:36:35.3371320Z"
+2025-11-29 00:36:48.613 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/favicon.ico - null null
+2025-11-29 00:36:48.621 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 00:36:48.637 +02:00 [INF] CORS policy execution successful.
+2025-11-29 00:36:48.644 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:36:48.646 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 00:36:48.651 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 00:36:48.660 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 8.9058ms
+2025-11-29 00:36:48.667 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:36:48.669 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 48.2556ms
+2025-11-29 00:36:48.690 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/favicon.ico - 404 0 null 76.7736ms
+2025-11-29 00:36:48.699 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5031/favicon.ico, Response status code: 404
+2025-11-29 00:37:35.350 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:37:35.3508969Z"
+2025-11-29 00:38:35.447 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:38:35.4471979Z"
+2025-11-29 00:39:35.459 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:39:35.4598900Z"
+2025-11-29 00:40:35.483 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:40:35.4834150Z"
+2025-11-29 00:41:36.457 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:41:36.4578881Z"
+2025-11-29 00:42:36.546 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:42:36.5467924Z"
+2025-11-29 00:43:36.567 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:43:36.5678224Z"
+2025-11-29 00:44:30.372 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 00:44:30.408 +02:00 [INF] CORS policy execution successful.
+2025-11-29 00:44:30.410 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:44:30.415 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 00:44:30.487 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 00:44:30.495 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 8.1026ms
+2025-11-29 00:44:30.529 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:44:30.580 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 208.0674ms
+2025-11-29 00:44:36.854 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:44:36.8543027Z"
+2025-11-29 00:45:38.016 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:45:38.0163054Z"
+2025-11-29 00:46:38.931 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:46:38.9311077Z"
+2025-11-29 00:46:42.045 +02:00 [WRN] As of ""2025-11-28T22:46:42.0445054+00:00"", the heartbeat has been running for ""00:00:01.3551674"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-11-29 00:47:40.992 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:47:40.9924041Z"
+2025-11-29 00:48:41.645 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:48:41.6455746Z"
+2025-11-29 00:49:42.102 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:49:42.1022065Z"
+2025-11-29 00:50:42.137 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:50:42.1378869Z"
+2025-11-29 00:51:42.385 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:51:42.3853436Z"
+2025-11-29 00:52:42.401 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:52:42.4010784Z"
+2025-11-29 00:53:42.829 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:53:42.8292490Z"
+2025-11-29 00:53:49.573 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/favicon.ico - null null
+2025-11-29 00:53:49.573 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 00:53:49.710 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/favicon.ico - 404 0 null 137.6031ms
+2025-11-29 00:53:49.744 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5031/favicon.ico, Response status code: 404
+2025-11-29 00:53:49.737 +02:00 [INF] CORS policy execution successful.
+2025-11-29 00:53:50.196 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:53:50.206 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 00:53:50.277 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 00:53:50.298 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 22.5152ms
+2025-11-29 00:53:50.330 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 00:53:50.340 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 766.4327ms
+2025-11-29 00:54:43.219 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:54:43.2191856Z"
+2025-11-29 00:55:43.642 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:55:43.6426593Z"
+2025-11-29 00:56:43.902 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:56:43.9028465Z"
+2025-11-29 00:57:44.360 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:57:44.3600098Z"
+2025-11-29 00:58:44.369 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:58:44.3695155Z"
+2025-11-29 00:59:44.403 +02:00 [INF] Background polling executed successfully at "2025-11-28T22:59:44.4033106Z"
+2025-11-29 01:00:44.697 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:00:44.6974906Z"
+2025-11-29 01:01:44.741 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:01:44.7418148Z"
+2025-11-29 01:02:21.726 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 01:02:21.743 +02:00 [INF] CORS policy execution successful.
+2025-11-29 01:02:21.753 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 01:02:21.760 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 01:02:21.772 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 01:02:22.270 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 498.8114ms
+2025-11-29 01:02:22.278 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 01:02:22.289 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 563.2607ms
+2025-11-29 01:02:44.848 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:02:44.8483306Z"
+2025-11-29 01:03:44.870 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:03:44.8707090Z"
+2025-11-29 01:04:44.889 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:04:44.8894157Z"
+2025-11-29 01:05:44.924 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:05:44.9155863Z"
+2025-11-29 01:06:45.124 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:06:45.1243440Z"
+2025-11-29 01:06:52.747 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Messaging/logs?pageSize=10 - null null
+2025-11-29 01:06:52.859 +02:00 [INF] CORS policy execution successful.
+2025-11-29 01:06:52.866 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Messaging/logs?pageSize=10 - 204 null null 119.0566ms
+2025-11-29 01:06:52.880 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Messaging/logs?pageSize=10 - application/json null
+2025-11-29 01:06:52.892 +02:00 [INF] CORS policy execution successful.
+2025-11-29 01:06:53.050 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|SmsManager)
+2025-11-29 01:06:53.058 +02:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-11-29 01:06:53.075 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Messaging/logs?pageSize=10 - 403 0 null 194.4203ms
+2025-11-29 01:07:45.141 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:07:45.1417330Z"
+2025-11-29 01:08:36.659 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/settings - application/json null
+2025-11-29 01:08:36.708 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-11-29 01:08:36.746 +02:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-11-29 01:08:36.778 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-29 01:08:36.794 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-29 01:08:36.799 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/settings - 401 0 null 140.2392ms
+2025-11-29 01:08:45.160 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:08:45.1608578Z"
+2025-11-29 01:09:45.173 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:09:45.1734109Z"
+2025-11-29 01:10:45.186 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:10:45.1860793Z"
+2025-11-29 01:11:45.259 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:11:45.2591667Z"
+2025-11-29 01:12:45.275 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:12:45.2755732Z"
+2025-11-29 01:13:25.727 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/Register - application/json 134
+2025-11-29 01:13:25.749 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Register (backend)'
+2025-11-29 01:13:25.926 +02:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(RegisterRequest) on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 01:13:26.186 +02:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 01:13:26.232 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Register (backend) in 278.5221ms
+2025-11-29 01:13:26.260 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Register (backend)'
+2025-11-29 01:13:26.307 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/Register - 409 null application/json; charset=utf-8 580.1959ms
+2025-11-29 01:13:38.001 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/Login - application/json 67
+2025-11-29 01:13:38.021 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Login (backend)'
+2025-11-29 01:13:38.023 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginRequest) on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 01:13:40.010 +02:00 [INF] Successful login for user: dan@example.com
+2025-11-29 01:13:40.017 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`5[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-29 01:13:40.024 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Login (backend) in 1996.1631ms
+2025-11-29 01:13:40.026 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Login (backend)'
+2025-11-29 01:13:40.032 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/Login - 200 null application/json; charset=utf-8 2030.6153ms
+2025-11-29 01:13:45.300 +02:00 [INF] Background polling executed successfully at "2025-11-28T23:13:45.3000872Z"
+2025-11-29 12:16:48.142 +02:00 [INF] Now listening on: http://localhost:5031
+2025-11-29 12:16:48.206 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-29 12:16:48.209 +02:00 [INF] Hosting environment: Development
+2025-11-29 12:16:48.211 +02:00 [INF] Content root path: C:\Users\YOUNG'SSTAR\Desktop\Backend_IP\backend
+2025-11-29 12:16:48.609 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:16:48.6088489Z"
+2025-11-29 12:16:48.751 +02:00 [INF] Cleaned up 0 old message logs older than 2025-08-31
+2025-11-29 12:16:48.754 +02:00 [INF] Database maintenance completed
+2025-11-29 12:16:53.486 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 12:16:53.486 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/favicon.ico - null null
+2025-11-29 12:16:53.486 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - null null
+2025-11-29 12:16:53.560 +02:00 [INF] CORS policy execution successful.
+2025-11-29 12:16:53.560 +02:00 [INF] CORS policy execution successful.
+2025-11-29 12:16:53.579 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5031/api/Auth/refresh-token - 204 null null 95.2418ms
+2025-11-29 12:16:53.584 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-29 12:16:53.603 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/favicon.ico - 404 0 null 119.4208ms
+2025-11-29 12:16:53.605 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:16:53.611 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5031/favicon.ico, Response status code: 404
+2025-11-29 12:16:53.616 +02:00 [INF] CORS policy execution successful.
+2025-11-29 12:16:53.620 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-29 12:16:53.625 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 12:16:53.639 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 12:16:53.650 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 12:16:53.771 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 128.9212ms
+2025-11-29 12:16:53.772 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:16:53.777 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 293.2045ms
+2025-11-29 12:16:53.785 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - application/json 2
+2025-11-29 12:16:53.788 +02:00 [INF] CORS policy execution successful.
+2025-11-29 12:16:53.790 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-29 12:16:53.792 +02:00 [INF] Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 12:16:53.849 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-29 12:16:53.849 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType7`4[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-29 12:16:53.875 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 231.7051ms
+2025-11-29 12:16:53.875 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Refresh (backend) in 80.0944ms
+2025-11-29 12:16:53.879 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-29 12:16:53.880 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Refresh (backend)'
+2025-11-29 12:16:53.883 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 200 null application/json; charset=utf-8 298.6748ms
+2025-11-29 12:16:53.884 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5031/api/Auth/refresh-token - 200 null application/json; charset=utf-8 98.8175ms
+2025-11-29 12:16:53.892 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 12:16:53.899 +02:00 [INF] CORS policy execution successful.
+2025-11-29 12:16:53.900 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:16:53.901 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 12:16:53.904 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 12:16:53.906 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 2.7841ms
+2025-11-29 12:16:53.909 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:16:53.911 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 18.8598ms
+2025-11-29 12:16:53.913 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 12:16:53.919 +02:00 [INF] CORS policy execution successful.
+2025-11-29 12:16:53.921 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:16:53.922 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 12:16:53.925 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 12:16:53.928 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 2.727ms
+2025-11-29 12:16:53.930 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:16:53.932 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 18.8563ms
+2025-11-29 12:17:48.629 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:17:48.6298697Z"
+2025-11-29 12:18:48.648 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:18:48.6481416Z"
+2025-11-29 12:19:48.662 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:19:48.6627396Z"
+2025-11-29 12:20:17.178 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/favicon.ico - null null
+2025-11-29 12:20:17.183 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/favicon.ico - 404 0 null 5.2598ms
+2025-11-29 12:20:17.189 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5031/favicon.ico, Response status code: 404
+2025-11-29 12:20:17.548 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5031/api/Auth/Test - null null
+2025-11-29 12:20:17.556 +02:00 [INF] CORS policy execution successful.
+2025-11-29 12:20:17.557 +02:00 [INF] Executing endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:20:17.559 +02:00 [INF] Route matched with {action = "Test", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Test() on controller DelTechApi.Controllers.AuthController (backend).
+2025-11-29 12:20:17.563 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-29 12:20:17.569 +02:00 [INF] Executed action DelTechApi.Controllers.AuthController.Test (backend) in 5.6583ms
+2025-11-29 12:20:17.571 +02:00 [INF] Executed endpoint 'DelTechApi.Controllers.AuthController.Test (backend)'
+2025-11-29 12:20:17.575 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5031/api/Auth/Test - 200 null application/json; charset=utf-8 27.4696ms
+2025-11-29 12:20:48.672 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:20:48.6719856Z"
+2025-11-29 12:21:48.687 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:21:48.6873261Z"
+2025-11-29 12:22:48.704 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:22:48.7046928Z"
+2025-11-29 12:23:48.882 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:23:48.8824972Z"
+2025-11-29 12:24:49.366 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:24:49.3668282Z"
+2025-11-29 12:25:49.893 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:25:49.8930892Z"
+2025-11-29 12:26:49.915 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:26:49.9153977Z"
+2025-11-29 12:27:50.267 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:27:50.2674606Z"
+2025-11-29 12:28:50.336 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:28:50.3361786Z"
+2025-11-29 12:29:50.351 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:29:50.3511410Z"
+2025-11-29 12:30:50.364 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:30:50.3641810Z"
+2025-11-29 12:31:50.694 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:31:50.6949053Z"
+2025-11-29 12:32:50.693 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:32:50.6938797Z"
+2025-11-29 12:33:50.704 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:33:50.7044171Z"
+2025-11-29 12:34:50.714 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:34:50.7147964Z"
+2025-11-29 12:35:50.728 +02:00 [INF] Background polling executed successfully at "2025-11-29T10:35:50.7280107Z"
+2025-11-29 12:36:14.366 +02:00 [INF] Application is shutting down...
+2025-11-29 13:34:10.252 +02:00 [INF] Now listening on: http://localhost:5031
+2025-11-29 13:34:10.606 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-29 13:34:10.608 +02:00 [INF] Hosting environment: Development
+2025-11-29 13:34:10.609 +02:00 [INF] Content root path: C:\Users\YOUNG'SSTAR\Desktop\Backend_IP\backend
+2025-11-29 13:34:10.641 +02:00 [INF] Background polling executed successfully at "2025-11-29T11:34:10.6397979Z"
+2025-11-29 13:34:10.734 +02:00 [INF] Cleaned up 0 old message logs older than 2025-08-31
+2025-11-29 13:34:10.736 +02:00 [INF] Database maintenance completed
+2025-11-29 13:35:13.274 +02:00 [INF] Background polling executed successfully at "2025-11-29T11:35:13.2734267Z"
