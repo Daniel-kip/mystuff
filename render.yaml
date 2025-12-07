@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: deltech-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://0.0.0.0:8080
+      - key: ConnectionStrings__MySqlConnection
+        sync: false
+      - key: AfricasTalking__Username
+        value: Deltechnetworks
+      - key: AfricasTalking__ApiKey
+        sync: false
+      - key: Jwt__Issuer
+        value: DelTechAPI
+      - key: Jwt__Audience
+        value: DelTechClients

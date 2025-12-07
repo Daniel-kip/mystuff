@@ -159,7 +159,12 @@ namespace DelTechApi.Controllers
                     message = "Login successful",
                     accessToken,
                     accessTokenExpiresAt = accessExpiryUtc.ToString("o"),
-                    user = new { user.ID, user.FULL_NAME, user.EMAIL, user.ROLE }
+                    user = new { 
+                        Id = user.ID, 
+                        FullName = user.FULL_NAME, 
+                        Email = user.EMAIL, 
+                        Role = user.ROLE 
+                    }
                 });
             }
             catch (Exception ex)
@@ -232,7 +237,12 @@ namespace DelTechApi.Controllers
                     success = true,
                     accessToken = newAccessToken,
                     accessTokenExpiresAt = accessExpiryUtc.ToString("o"),
-                    user = new { user.ID, user.FULL_NAME, user.EMAIL, user.ROLE }
+                    user = new { 
+                        Id = user.ID, 
+                        FullName = user.FULL_NAME, 
+                        Email = user.EMAIL, 
+                        Role = user.ROLE 
+                    }
                 });
             }
             catch (Exception ex)
@@ -444,5 +454,117 @@ namespace DelTechApi.Controllers
             public string EMAIL { get; set; } = string.Empty;
             public string ROLE { get; set; } = "User";
         }
+
+        public class ChangePasswordRequest
+        {
+            public string OldPassword { get; set; } = string.Empty;
+            public string NewPassword { get; set; } = string.Empty;
+            public string ConfirmPassword { get; set; } = string.Empty;
+        }
+
+        // ===================== New Settings Endpoints =====================
+
+        [HttpPost("change-password")]
+        [Authorize]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordRequest request)
+        {
+            try
+            {
+                if (request.NewPassword != request.ConfirmPassword)
+                    return BadRequest(new { success = false, message = "New passwords do not match." });
+
+                if (!IsValidPassword(request.NewPassword))
+                     return BadRequest(new { success = false, message = "Password must be at least 8 characters with uppercase, lowercase, number and special character." });
+
+                var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+
+                var user = await _databaseService.WithConnectionAsync(async connection =>
+                    await connection.QueryFirstOrDefaultAsync<AppUser>(
+                        "SELECT * FROM auth_users WHERE ID = @Id", new { Id = userId }));
+
+                if (user == null) return NotFound("User not found");
+
+                if (!VerifyPassword(request.OldPassword, user.PASSWORD_HASH, user.SALT))
+                    return BadRequest(new { success = false, message = "Incorrect old password." });
+
+                var newHash = HashPassword(request.NewPassword, out string newSalt);
+
+                await _databaseService.WithConnectionAsync(async connection =>
+                    await connection.ExecuteAsync(
+                         "UPDATE auth_users SET password_hash = @Hash, salt = @Salt WHERE id = @Id",
+                         new { Hash = newHash, Salt = newSalt, Id = userId }));
+
+                _logger.LogInformation("User {UserId} changed password", userId);
+                return Ok(new { success = true, message = "Password changed successfully." });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error changing password");
+                return StatusCode(500, new { success = false, message = "Error changing password." });
+            }
+        }
+
+        public class LoginHistoryDto
+        {
+            public string Ip { get; set; } = string.Empty;
+            public string Device { get; set; } = string.Empty;
+            public DateTime LoginTime { get; set; }
+            public bool Revoked { get; set; }
+        }
+
+        [HttpGet("login-history")]
+        [Authorize]
+        public async Task<IActionResult> GetLoginHistory()
+        {
+            try
+            {
+                var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+                var history = await _databaseService.WithConnectionAsync(async connection =>
+                    await connection.QueryAsync<LoginHistoryDto>(
+                        @"SELECT ip, device, created_at as LoginTime, revoked 
+                          FROM auth_refresh_tokens 
+                          WHERE user_id = @UserId 
+                          ORDER BY created_at DESC LIMIT 10",
+                        new { UserId = userId }));
+
+                return Ok(history);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching login history");
+                return StatusCode(500, new { success = false, message = "Error fetching history." });
+            }
+        }
+
+        [HttpDelete("delete-account")]
+        [Authorize]
+        public async Task<IActionResult> DeleteAccount()
+        {
+            try
+            {
+                var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+
+                await _databaseService.WithConnectionAsync(async connection =>
+                {
+                    // Delete refresh tokens first
+                    await connection.ExecuteAsync("DELETE FROM auth_refresh_tokens WHERE user_id = @UserId", new { UserId = userId });
+                    // Delete user settings
+                    await connection.ExecuteAsync("DELETE FROM user_settings WHERE user_id = @UserId", new { UserId = userId });
+                    // Delete user
+                    await connection.ExecuteAsync("DELETE FROM auth_users WHERE id = @UserId", new { UserId = userId });
+                });
+
+                ClearRefreshCookie();
+                _logger.LogInformation("User {UserId} deleted their account", userId);
+                return Ok(new { success = true, message = "Account deleted successfully." });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error deleting account");
+                return StatusCode(500, new { success = false, message = "Error deleting account." });
+            }
+        }
+
+        // ===================== Models =====================
     }
 }

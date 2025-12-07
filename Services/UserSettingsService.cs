@@ -31,7 +31,7 @@ public class UserSettingsService
 
     public UserSettingsService(IConfiguration configuration)
     {
-        _connectionString = configuration.GetConnectionString("DefaultConnection");
+        _connectionString = configuration.GetConnectionString("MySqlConnection");
     }
 
     // Read user settings by user ID

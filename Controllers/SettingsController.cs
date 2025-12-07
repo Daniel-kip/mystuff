@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -8,10 +9,12 @@ using System.Security.Claims;
 public class SettingsController : ControllerBase
 {
     private readonly UserSettingsService _settingsService;
+    private readonly ILogger<SettingsController> _logger;
 
-    public SettingsController(UserSettingsService settingsService)
+    public SettingsController(UserSettingsService settingsService, ILogger<SettingsController> logger)
     {
         _settingsService = settingsService;
+        _logger = logger;
     }
 
     [HttpGet]
@@ -34,17 +37,23 @@ public class SettingsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> SaveSettings([FromBody] UserSettings settings)
     {
-        if (!ModelState.IsValid)
-            return BadRequest(ModelState);
+        try
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier) 
+                              ?? User.FindFirst("id");
 
-        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)
-                          ?? User.FindFirst("id");
+            if (userIdClaim == null || !int.TryParse(userIdClaim.Value, out int userId))
+                return Unauthorized("Invalid or missing user ID in token.");
 
-        if (userIdClaim == null || !int.TryParse(userIdClaim.Value, out int userId))
-            return Unauthorized("Invalid or missing user ID in token.");
+            await _settingsService.SaveSettingsAsync(userId, settings);
 
-        await _settingsService.SaveSettingsAsync(userId, settings);
-
-        return Ok(new { success = true, message = "Settings saved successfully" });
+            return Ok(new { success = true, message = "Settings saved successfully" });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"\n\n!!!!!! SAVE SETTINGS ERROR: {ex.Message} !!!!!!\n\n");
+            _logger.LogError(ex, "CRITICAL ERROR: SaveSettings failed.");
+            return StatusCode(500, new { success = false, message = "Save failed: " + ex.Message, details = ex.ToString() });
+        }
     }
 }

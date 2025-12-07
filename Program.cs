@@ -3,6 +3,8 @@ using System.Security.Cryptography;
 using System.Text;
 using DelTechApi.Hubs;
 using DelTechApi.Services;
+using DelTechApi.Models;
+using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
@@ -27,15 +29,8 @@ builder.Host.UseSerilog();
 // ----------------------------
 // Africa's Talking Config
 // ----------------------------
-var atConfig = configuration.GetSection("AfricasTalking");
-var atSettings = new AfricasTalkingSettings
-{
-    Username = atConfig["Username"] ?? "",
-    ApiKey = atConfig["ApiKey"] ?? "",
-    SenderName = atConfig["SenderName"] ?? "DelTech"
-};
-if (string.IsNullOrEmpty(atSettings.Username) || string.IsNullOrEmpty(atSettings.ApiKey))
-    Log.Warning("Africa's Talking configuration incomplete");
+// Settings loaded via IOptions in DI
+
 
 // ----------------------------
 // Controllers + JSON
@@ -45,6 +40,8 @@ builder.Services.AddControllers()
     {
         opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
         opt.SerializerSettings.DateTimeZoneHandling = Newtonsoft.Json.DateTimeZoneHandling.Utc;
+        opt.SerializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
+        opt.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
     });
 builder.Services.AddEndpointsApiExplorer();
 
@@ -97,20 +94,36 @@ builder.Services.AddHealthChecks()
 builder.Services.AddScoped<IDatabaseService, DatabaseService>();
 builder.Services.AddScoped<IMessageLogService, MessageLogService>();
 builder.Services.AddScoped<UserService>();
-builder.Services.AddScoped<SmsService>();
+// builder.Services.AddScoped<SmsService>(); // Replaced by ISmsService
 builder.Services.AddScoped<UserSettingsService>();
 builder.Services.AddSingleton<ICacheService, DistributedCacheService>();
 builder.Services.AddHostedService<BackgroundPollingService>();
 builder.Services.AddHostedService<DatabaseMaintenanceService>();
 builder.Services.AddDistributedMemoryCache();
+builder.Services.AddScoped<DatabaseInitializer>(); // Register Initializer
+
 
 // ----------------------------
 // HTTP Client (Africa's Talking)
 // ----------------------------
-builder.Services.AddHttpClient("AfricasTalking", client =>
+// ----------------------------
+// Africa's Talking Config & HTTP Client
+// ----------------------------
+builder.Services.Configure<AfricasTalkingSettings>(configuration.GetSection("AfricasTalking"));
+
+builder.Services.AddHttpClient<ISmsService, AfricasTalkingSmsService>((serviceProvider, client) =>
 {
-    client.BaseAddress = new Uri("https://api.africastalking.com/");
+    var settings = serviceProvider.GetRequiredService<IOptions<AfricasTalkingSettings>>().Value;
+    var isSandbox = settings.Username?.Equals("sandbox", StringComparison.OrdinalIgnoreCase) ?? false;
+    
+    var baseUrl = isSandbox 
+        ? "https://api.sandbox.africastalking.com/" 
+        : "https://api.africastalking.com/";
+    
+    client.BaseAddress = new Uri(baseUrl);
     client.DefaultRequestHeaders.Add("Accept", "application/json");
+    
+    if (isSandbox) Log.Information("Using Africa's Talking SANDBOX environment");
 });
 
 // ----------------------------
@@ -145,13 +158,11 @@ builder.Services.AddSingleton<JwtKeyRotationService>(sp =>
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("AllowFrontend", p =>
-        p.WithOrigins(
-            "http://localhost:3000",
-            "https://localhost:3000",
-            "http://localhost:5031")
+        p.SetIsOriginAllowed(_ => true) // Allow any origin (flexible for dev IPs like 172.x.x.x)
          .AllowAnyHeader()
          .AllowAnyMethod()
-         .AllowCredentials());
+         .AllowCredentials()
+         .WithExposedHeaders("Content-Disposition", "X-Total-Count")); // Expose headers for file downloads and pagination
 });
 
 // ----------------------------
@@ -206,7 +217,7 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminOnly", p => p.RequireRole("Admin"));
     options.AddPolicy("DeviceAccess", p => p.RequireRole("Admin", "DeviceManager"));
-    options.AddPolicy("SmsAccess", p => p.RequireRole("Admin", "SmsManager"));
+    options.AddPolicy("SmsAccess", p => p.RequireAuthenticatedUser());
 });
 
 // ----------------------------
@@ -286,10 +297,21 @@ app.UseAuthorization();
 // ----------------------------
 // Endpoints
 // ----------------------------
+
+
 app.MapControllers();
 app.MapHub<DeviceHub>("/devicehub");
 app.MapHealthChecks("/health");
 app.Map("/error", () => Results.Problem("Unexpected error", statusCode: 500));
+
+// Initialize Database
+using (var scope = app.Services.CreateScope())
+{
+    var initializer = scope.ServiceProvider.GetRequiredService<DatabaseInitializer>();
+    // Run synchronously to ensure tables exist before requests hit
+    initializer.InitializeAsync().GetAwaiter().GetResult(); 
+}
+
 
 app.MapGet("/api/diagnostic/endpoints", (IEnumerable<EndpointDataSource> sources) =>
 {
